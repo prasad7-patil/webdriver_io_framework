@@ -1,0 +1,109 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666078578233' stop='1666078615516'>
+    <name>createOrganizationAndCheckDataFlowInContactModule</name>
+    <title>createOrganizationAndCheckDataFlowInContactModule</title>
+    <test-cases>
+        <test-case start='1666078578234' status='passed' stop='1666078587124'>
+            <name>login</name>
+            <title>login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666078587125' status='passed' stop='1666078593544'>
+            <name>fill all details in create new organization page</name>
+            <title>fill all details in create new organization page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666078593545' status='passed' stop='1666078599123'>
+            <name>organization information page</name>
+            <title>organization information page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666078599127' status='passed' stop='1666078603350'>
+            <name>Contact home page </name>
+            <title>Contact home page </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666078603352' status='broken' stop='1666078605403'>
+            <name>create New contact with the organization created</name>
+            <title>create New contact with the organization created</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='477b0627-c056-45c1-bcd9-2a586d54f2aa-attachment.png' type='image/png' size='41741'/>
+            </attachments>
+            <failure>
+                <message>actulOrgNamee is not defined</message>
+                <stack-trace>ReferenceError: actulOrgNamee is not defined
+                    at Context.&lt;anonymous> (C:\Users\Admin\Desktop\webdriver IO\test\specs\createOrgCheckDataFlowIncontactModule.js:70:64)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666078605403' status='broken' stop='1666078615514'>
+            <name>logout</name>
+            <title>logout</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='205ed132-832b-42e4-a8bf-f53b5487b4ab-attachment.png' type='image/png' size='41725'/>
+            </attachments>
+            <failure>
+                <message>Can't call moveTo on element with selector "//img[@src='themes/softed/images/user.PNG']" because element wasn't found</message>
+                <stack-trace>Error: Can't call moveTo on element with selector "//img[@src='themes/softed/images/user.PNG']" because element wasn't found
+                    at implicitWait (C:\Users\Admin\Desktop\webdriver IO\node_modules\webdriverio\build\utils\implicitWait.js:34:19)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\Admin\Desktop\webdriver IO\node_modules\webdriverio\build\middlewares.js:20:29)
+                    at async Element.wrapCommandFn (C:\Users\Admin\Desktop\webdriver IO\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Context.&lt;anonymous> (C:\Users\Admin\Desktop\webdriver IO\test\specs\createOrgCheckDataFlowIncontactModule.js:86:9)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

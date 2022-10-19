@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666075771215' stop='1666075795288'>
+    <name>createOrganization</name>
+    <title>createOrganization</title>
+    <test-cases>
+        <test-case start='1666075771215' status='passed' stop='1666075778241'>
+            <name>login</name>
+            <title>login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666075778242' status='passed' stop='1666075787688'>
+            <name>fill all details in create new organization page</name>
+            <title>fill all details in create new organization page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1666075787689' status='broken' stop='1666075795286'>
+            <name>validating created organization</name>
+            <title>validating created organization</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='73f1e348-83f6-4ced-ad58-a950219c0284-attachment.png' type='image/png' size='107386'/>
+            </attachments>
+            <failure>
+                <message>actualOrgNamee is not defined</message>
+                <stack-trace>ReferenceError: actualOrgNamee is not defined
+                    at Context.&lt;anonymous> (C:\Users\Admin\Desktop\webdriver IO\test\specs\createOrganization.js:54:24)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
