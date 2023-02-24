@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669187492043' stop='1669187552104'>
+    <name>sales</name>
+    <title>sales</title>
+    <test-cases>
+        <test-case start='1669187492060' status='broken' stop='1669187552073'>
+            <name>login</name>
+            <title>login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+                <parameter kind='argument' name='browserVersion' value='107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='ecdfd569-a34a-47c7-923d-c0ddf92770ba-attachment.mp4' type='video/mp4' size='86'/>
+            </attachments>
+            <failure>
+                <message>Timeout of 60000ms exceeded. The execution in the test "sales login" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Admin\Desktop\OI\test\specs\practice2.js)</message>
+                <stack-trace>Error: Timeout of 60000ms exceeded. The execution in the test "sales login" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts). (C:\Users\Admin\Desktop\OI\test\specs\practice2.js)
+                    at createTimeoutError (C:\Users\Admin\Desktop\OI\node_modules\mocha\lib\errors.js:498:15)
+                    at Runnable._timeoutError (C:\Users\Admin\Desktop\OI\node_modules\mocha\lib\runnable.js:431:10)
+                    at Timeout.&lt;anonymous> (C:\Users\Admin\Desktop\OI\node_modules\mocha\lib\runnable.js:246:24)
+                    at listOnTimeout (node:internal/timers:564:17)
+                    at process.processTimers (node:internal/timers:507:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

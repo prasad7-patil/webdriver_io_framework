@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666335870579' stop='1666335897443'>
+    <name>createOrganization</name>
+    <title>createOrganization</title>
+    <test-cases>
+        <test-case start='1666335870599' status='failed' stop='1666335876874'>
+            <name>login</name>
+            <title>login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='983ef2b1-d264-4ace-9cfc-75a23c3e712d-attachment.mp4' type='video/mp4' size='109'/>
+            </attachments>
+            <failure>
+                <message>expectedChai is not defined</message>
+                <stack-trace>ReferenceError: expectedChai is not defined
+                    at Context.&lt;anonymous> (C:\Users\Admin\Desktop\webdriver IO\test\specs\createOrganization.js:20:9)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666335876888' status='failed' stop='1666335887038'>
+            <name>fill all details in create new organization page</name>
+            <title>fill all details in create new organization page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='ef37ea6a-20e8-4a53-b80e-dc451d47de41-attachment.mp4' type='video/mp4' size='152'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have title containing
+                
+                Expected: "Administrator - Organizations - "
+                Received: "vtiger CRM 5 - Commercial Open Source CRM"</message>
+                <stack-trace>Error: Expect window to have title containing
+                
+                Expected: "Administrator - Organizations - "
+                Received: "vtiger CRM 5 - Commercial Open Source CRM"
+                    at Context.&lt;anonymous> (C:\Users\Admin\Desktop\webdriver IO\test\specs\createOrganization.js:32:31)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666335887237' status='failed' stop='1666335897427'>
+            <name>validating created organization</name>
+            <title>validating created organization</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='133c930a-1c32-44f6-b1d5-087b867c957f-attachment.mp4' type='video/mp4' size='135'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//td[text()='Organization Information']`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"</message>
+                <stack-trace>Error: Expect $(`//td[text()='Organization Information']`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"
+                    at Context.&lt;anonymous> (C:\Users\Admin\Desktop\webdriver IO\test\specs\createOrganization.js:46:38)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
