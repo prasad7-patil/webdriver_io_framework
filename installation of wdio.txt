@@ -1,0 +1,4 @@
+npm init-->package.json file will be created
+npm install-->in dependencies 
+npm init wdio .-->configuration file will be genered 
+some installation steps will be asked in this

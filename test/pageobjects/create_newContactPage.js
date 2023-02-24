@@ -1,4 +1,4 @@
-class createNewContact{
+class createNewContact {
     get headerTextElementOfPage(){
         return $("//span[@class='lvtHeaderText']")
     }

@@ -73,9 +73,6 @@ exports.config = {
         browserName: 'chrome',
         acceptInsecureCerts: true,
 
-        'goog:chromeOptions': 
-        {
-              "excludeSwitches" : ["disable-popup-blocking"],"args" : ["incognito"] },
         'goog:chromeOptions': {
             prefs: {
               // 0 - Default, 1 - Allow, 2 - Block

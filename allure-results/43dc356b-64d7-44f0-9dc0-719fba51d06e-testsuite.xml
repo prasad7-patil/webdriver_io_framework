@@ -1,0 +1,66 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1669093722311' stop='1669093770309'>
+    <name>createOrganization</name>
+    <title>createOrganization</title>
+    <test-cases>
+        <test-case start='1669093722374' status='failed' stop='1669093747733'>
+            <name>login</name>
+            <title>login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+                <parameter kind='argument' name='browserVersion' value='107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='13b513e7-0d9b-457e-b260-57327c7f320c-attachment.mp4' type='video/mp4' size='99'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have title containing
+                
+                Expected: "Administrator - Home - vtiger CRM 5 "
+                Received: "vtiger CRM 5 - Commercial Open Source CRM"</message>
+                <stack-trace>Error: Expect window to have title containing
+                
+                Expected: "Administrator - Home - vtiger CRM 5 "
+                Received: "vtiger CRM 5 - Commercial Open Source CRM"
+                    at Context.&lt;anonymous> (C:\Users\Admin\Desktop\OI\test\specs\createOrganization.js:24:31)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1669093747749' status='passed' stop='1669093759998'>
+            <name>fill all details in create new organization page</name>
+            <title>fill all details in create new organization page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+                <parameter kind='argument' name='browserVersion' value='107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1669093760007' status='passed' stop='1669093770308'>
+            <name>validating created organization</name>
+            <title>validating created organization</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-107.0.5304.107'/>
+                <parameter kind='argument' name='browserVersion' value='107.0.5304.107'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

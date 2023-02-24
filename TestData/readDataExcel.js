@@ -1,5 +1,5 @@
 var xlsx=require('xlsx')
-var wb=xlsx.readFile('./test/specs/TestData/testdata.xlsx')
+var wb=xlsx.readFile('./TestData/testdata.xlsx')
 
 let sheet=wb.SheetNames
 

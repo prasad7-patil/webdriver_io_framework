@@ -12,5 +12,5 @@
         "node_modules/@wdio/sync",
         "node_modules/@wdio/mocha-framework",
         "test/pageobjects/org_info_page.js" 
-, "TestData/demo.js"       ]
+, "TestData/demo.js", "TestData/readDataExcel.js"       ]
 }

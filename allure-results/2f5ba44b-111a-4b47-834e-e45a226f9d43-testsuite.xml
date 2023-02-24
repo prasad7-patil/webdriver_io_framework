@@ -1,0 +1,91 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1666336170034' stop='1666336194881'>
+    <name>createOrganization</name>
+    <title>createOrganization</title>
+    <test-cases>
+        <test-case start='1666336170151' status='failed' stop='1666336174148'>
+            <name>login</name>
+            <title>login</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='e4ea8808-97d6-45ef-9c3c-eb69048bc8fc-attachment.mp4' type='video/mp4' size='109'/>
+            </attachments>
+            <failure>
+                <message>the title is correct: expected undefined to equal 'vtiger CRM 5 - Commercial Open Source…'      
+                      actual expected
+                      
+                      undefined'vtiger CRM 5 - Commercial Open Source CRM'
+                      </message>
+                <stack-trace>AssertionError: the title is correct: expected undefined to equal 'vtiger CRM 5 - Commercial Open Source…'
+                    at Context.&lt;anonymous> (C:\Users\Admin\Desktop\webdriver IO\test\specs\createOrganization.js:21:35)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666336174158' status='failed' stop='1666336184433'>
+            <name>fill all details in create new organization page</name>
+            <title>fill all details in create new organization page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='ccf1b6be-8267-4f08-a941-88faf17144b9-attachment.mp4' type='video/mp4' size='152'/>
+            </attachments>
+            <failure>
+                <message>Expect window to have title containing
+                
+                Expected: "Administrator - Organizations - "
+                Received: "vtiger CRM 5 - Commercial Open Source CRM"</message>
+                <stack-trace>Error: Expect window to have title containing
+                
+                Expected: "Administrator - Organizations - "
+                Received: "vtiger CRM 5 - Commercial Open Source CRM"
+                    at Context.&lt;anonymous> (C:\Users\Admin\Desktop\webdriver IO\test\specs\createOrganization.js:33:31)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1666336184459' status='failed' stop='1666336194875'>
+            <name>validating created organization</name>
+            <title>validating created organization</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-106.0.5249.119'/>
+                <parameter kind='argument' name='browserVersion' value='106.0.5249.119'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Execution video' source='e2c55b0b-7d9f-44b3-8570-b4c50c7df896-attachment.mp4' type='video/mp4' size='135'/>
+            </attachments>
+            <failure>
+                <message>Expect $(`//td[text()='Organization Information']`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"</message>
+                <stack-trace>Error: Expect $(`//td[text()='Organization Information']`) to be displayed
+                
+                Expected: "displayed"
+                Received: "not displayed"
+                    at Context.&lt;anonymous> (C:\Users\Admin\Desktop\webdriver IO\test\specs\createOrganization.js:47:38)
+                    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
