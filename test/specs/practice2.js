@@ -4,7 +4,6 @@ describe("sales",async()=>{
         await browser.maximizeWindow()
         await browser.$("//button[@class='_2KpZ6l _2doB4z']").click()
         await browser.$('[name="q"]').addValue("iphone 14")
-        console.log("hello")
-        
+        console.log("hello")    
     })
 })
