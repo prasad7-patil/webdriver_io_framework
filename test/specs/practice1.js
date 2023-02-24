@@ -4,5 +4,8 @@ describe("admin",async()=>{
         await browser.maximizeWindow()
         await browser.$('[name="q"]').setValue("alexnder supertramp") 
         await browser.url("http://www.google.com/")
+
+        
+
     })
 })
